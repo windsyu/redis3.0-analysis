@@ -1,0 +1,5 @@
+CompileFlags:
+  Add:
+    - -I/home/windsyu/workspace/redis3.0-analysis/deps/lua/src
+    - -xc
+    - -std=c11

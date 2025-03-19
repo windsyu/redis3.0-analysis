@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "(lldb) 启动",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/redis-server",
+            "args": ["${workspaceFolder}/redis.conf"],
+            "cwd": "${fileDirname}",
+            "console": "internalConsole",
+            
+        }
+    ]
+}
+// "setupCommands": [
+//     {
+//         "description": "为 lldb 启用整齐打印",
+//         "text": "type summary add --summary-string \"${var%s}\"",
+//         "ignoreFailures": true
+//     },
+//     {
+//         "description": "将反汇编风格设置为 Intel",
+//         "text": "settings set target.x86-disassembly-flavor intel",
+//         "ignoreFailures": true
+//     }
+// ]
