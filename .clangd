@@ -1,5 +1,9 @@
 CompileFlags:
   Add:
     - -I/home/windsyu/workspace/redis3.0-analysis/deps/lua/src
+    - -I/home/windsyu/workspace/redis3.0-analysis/deps/linenoise
+    - -I/home/windsyu/workspace/redis3.0-analysis/deps/jemalloc/src
+    - -I/home/windsyu/workspace/redis3.0-analysis/deps/hiredis
+    - -I/home/windsyu/workspace/redis3.0-analysis/deps/hiredis/adapters
     - -xc
     - -std=c11
